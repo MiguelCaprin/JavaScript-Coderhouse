@@ -81,7 +81,7 @@ console.log(filtrados1);
 const filtrados2 = arrayProductos.filter((elm) => elm.nombre === "Short")
 console.log(filtrados2);
 
-const filtrados3 = arrayProductos.filter((elm) => elm.nombre === "Camperas")
+const filtrados3 = arrayProductos.filter((elm) => elm.nombre === "Campera")
 console.log(filtrados3);
 
 const filtrados4 = arrayProductos.filter((elm) => elm.nombre === "Gorras")
