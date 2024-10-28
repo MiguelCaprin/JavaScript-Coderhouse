@@ -18,6 +18,8 @@ header div h1 {
     font-size: 200px;
     text-shadow: white 8px 3px;
     color: rgb(113, 1, 113);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
 }
 
 header div img {
