@@ -1,3 +1,4 @@
+
 header {
     background: rgb(255, 209, 67);
     background: linear-gradient(90deg, rgba(255, 209, 67, 1) 40%, rgba(252, 204, 69, 1) 51%, rgba(131, 58, 180, 1) 58%);
@@ -49,20 +50,23 @@ main {
 }
 
 .tarjetas div {
-    border: 5px solid black;
+    border: 2px solid #ffbf00;
     border-radius: 20px;
-    padding: 10px;
+    margin: 35px;
+    padding: 15px;
     text-align: center;
-    background-color: rgb(99, 2, 99);
+    background-color: rgb(43, 43, 13);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 10px 5px 5px black;
 }
 
 .tarjetas div img {
     width: 100%;
     height: 70%;
+    border: 2px solid #ffbf00;
     border-radius: 8px;
 
 }
@@ -88,6 +92,7 @@ main {
     border-radius: 5px;
     display: inline-block;
     margin: 5px;
+    box-shadow: 10px 5px 5px black;
 }
 
 .btn:hover {
@@ -100,4 +105,45 @@ main {
 
 .warning:hover {
     background-image: linear-gradient(to right, #7700a6, #ffda4e);
+}
+
+.gif1{
+    
+    margin: 10px;
+    width: 98%;
+    height: 300px;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 5px;
+    
+}
+.losangeles{
+    width: 99%;
+    height: 300px;
+    margin: 5px;
+    box-shadow: 10px 5px 5px black;
+}
+footer{
+    background: rgb(255, 209, 67);
+    background: linear-gradient(90deg, rgba(255, 209, 67, 1) 40%, rgba(252, 204, 69, 1) 51%, rgba(131, 58, 180, 1) 58%);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+footer  h1{
+   font-size: 50px;
+   text-shadow: rgb(65, 1, 97) 5px 2px;
+   color: white;
+   font-family:fantasy;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+}
+footer  a img{
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+}
+footer  a img:hover{
+    transform: scale(1.1);
 }
